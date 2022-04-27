@@ -1,0 +1,39 @@
+{
+    "name": "webpack-plugin-thirdparty-upload",
+    "version": "1.0.0",
+    "description": "Vue3,webpack-plugin-thirdparty-upload for qiniu(七牛)|aws(亚马逊) cloud upload. support @vue/cli-service 5.0.x",
+    "main": "index.js",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cduyzh/webpack-plugin-thirdparty-upload.git"
+    },
+    "homepage": "https://github.com/cduyzh/webpack-plugin-thirdparty-upload#readme",
+    "keywords": [
+        "vue3",
+        "vue-cli-plugin",
+        "webpack",
+        "plugin",
+        "qiniu",
+        "aws",
+        "@vue/cli-service",
+        "upload"
+    ],
+    "author": "cduyzh",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/cduyzh/webpack-plugin-thirdparty-upload/issues"
+    },
+    "devDependencies": {
+        "webpack": "^5.25.0",
+        "webpack-command": "^0.5.0"
+    },
+    "dependencies": {
+        "chalk": "4.1.2",
+        "hidefile": "^3.0.0",
+        "lodash": "4.17.21",
+        "qiniu": "^7.5.0",
+        "util.promisify": "^1.1.1",
+        "dayjs": "1.11.1"
+    }
+}
